@@ -1,3 +1,14 @@
+//TODO: this is the page that makes the call
+// should have a loader that calls the jira loader
+// form goes here
+
+// REPLACE contents of Index() with:
+//LOADER
+// https://remix.run/docs/en/v1/api/conventions#loader
+// - have the loader contact the loader in /jira
+
+// BUTTON
+
 export default function Index() {
   return (
     <div style={{ fontFamily: "system-ui, sans-serif", lineHeight: "1.4" }}>
